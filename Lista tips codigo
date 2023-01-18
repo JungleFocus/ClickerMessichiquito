@@ -1,0 +1,65 @@
+Tipos de datos :
+strings= Cadenas de texto 
+number = Numeros, enteros, 19.
+booleano = es un 0 o un 1, falso o verdad. Se usa con True or False
+
+tipos de variables= var, let, const
+var numero = 15; alcance global
+let numero = 15; el alcance es solo el cuadrante declarado
+const = no podes cambiar su valor, son variables que no van a cambiar.
+Se deben iniciar a la vez que declaras, no podes hacerlo en la linea de abajo.
+
+Casos especiales de Datos = Undefined, Null , Nan 
+
+Datos extras -
+Undefined = Variable no escrita, no definida.
+Declararla con LET , iniciarla asignandole la variables, sea numero o string.Cadenas
+
+Null - declaramos un valor vacio, un nulo. 
+
+variables multiples con let numero, numero2, numero3, numero4; 
+
+document.write(frase)
+
+Con backtiks se tiene que usar ${nombre}
+
+operadores de asignacion = 
+
+asignacion de adiccion // x + =y
+asignacion de sustraccion // x -= y
+asignacion de multipliacion // x * = y
+asignacion de division// x / = y
+asignacion de resto  //x % = y
+asignacion de exponenciacion// x** = y
+asignacion de desplazamiento a la izquierda// x << = y
+asignacion de desplazamineto a la derecha // x >> = y 
+asignacion XOR // 
+Asignacion OR //
+asignacion AND //
+
+operadores aritmeticos = 
+add (+)
+decrement(--) 
+division (/)
+exponente (**)
+increment (++)
+multripla (*)
+remainder (%)
+subrtraction (-) 
+unary negation (-)
+unary plus (+)
+
+operadores comparacion= (son los que comparan 2 expresiones y te devuelven un boolean en respuesta que representa la relacion de sus valores.)
+equality (a == b)
+inequality(a != b)
+identity(a === b)
+non-identity(a !== b)
+greater than (a > b)
+greather than or equal (a >= b)
+less than(a<b)
+less than or equal (a <= b)
+
+operadores logicos = (los operadores logicos nos devuelven un resultado a partir de que se cumpla o no una condicion, su resultado es booleano.)
+AND(&&) logico = es el uso para expr1 && expr 2 // regresa expr 1 si tal puede convertirse a false, de lo contrario, regresa expr2.Al usarse con booleans , regresa true si ambos operandos son verdaderos, de lo contrario regresa false.
+OR(||) logico = es el uso para expr1 || expr 2 // Regresa expr1 si tal puede convertirse a true, de lo contrario, regresa expr2. Al usarse con booleans , regresa true si cualquier operando es verdaderos, de lo contrario regresa false.
+NOT (!) logico = !expr // regresa false si su unico operando se puede convertir a true, de lo contrario regresa true.
